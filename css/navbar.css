@@ -1,0 +1,28 @@
+.navbar-custom {
+    background-color: #CCF;
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 1px solid #00A;
+    transition: 0.5s background-color, 0.5s border-color;
+}
+
+.navbar a {
+    color: #00A;
+    transition: 0.5s background-color, 0.5s color;
+}
+.nav .active a {
+    color: #000;
+    background-color: #DDF;
+}
+.nav a:hover,
+.nav a:focus {
+    background-color: #88F !important;
+    color: #FFF !important;
+}
+.icon-bar {
+    background-color: #00A;
+}
+.dropdown-menu {
+    background-color: #DDF;
+    transition: 0.5s background-color;
+}

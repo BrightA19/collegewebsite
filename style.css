@@ -1,0 +1,64 @@
+.navbar-custom {
+    background: none;
+}
+.navbar-custom {
+    border-color: white;
+}
+.navbar a {
+    color: #FFF;
+}
+.navbar:after {
+    content: \00;
+    display: none;
+    width: 100%;
+    height: 25px;
+    background: linear-gradient(#00A, rgba(0,0,0,0));
+    position: absolute;
+}
+.icon-bar {
+    background-color: #FFF;
+}
+
+.jumbotron {
+    background: url("jumbo-pic.jpg") no-repeat center #000;
+    height: 500px;
+    border-bottom: 1px solid black;
+}
+.jumbo-cntr {
+    position: relative;
+    top: 100px;
+    color: #FFF;
+    text-shadow: 0 0 20px #000;
+}
+
+.body-desc {
+    margin: 10px auto;
+    padding: 20px;
+    background: #FFF;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.summary {
+    padding: 15px;
+    font-size: 80%
+}
+
+.preview-pics {
+    margin: 10px auto;
+    padding: 20px;
+    background: #FFF;
+    border-radius: 5px;
+}
+.pics {
+    
+}
+@media (min-width: 768px) {
+    .jumbotron {
+        background-size: 100% auto;
+    }
+}
+@media (max-width: 768px) {
+    .jumbotron {
+        background-size: auto 100%;
+    }
+}
